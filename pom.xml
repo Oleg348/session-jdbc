@@ -15,6 +15,7 @@
 	<description>Demo project for Spring Boot</description>
 	<modules>
 		<module>app</module>
+		<module>h2-server</module>
 	</modules>
 	<packaging>pom</packaging>
 	<properties>
