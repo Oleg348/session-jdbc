@@ -19,7 +19,9 @@ public class SecurityConfig {
     @Bean
     public WebSecurityCustomizer ignoringCustomizer() {
         return (web) -> web
-                .ignoring().requestMatchers(PathRequest.toH2Console());
+//                .ignoring().requestMatchers(PathRequest.toH2Console())
+//                .and()
+                .ignoring().requestMatchers(PathRequest.toStaticResources().atCommonLocations());
     }
 
     @Bean
