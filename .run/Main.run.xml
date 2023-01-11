@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main" type="CompoundRunConfigurationType">
+    <toRun name="H2ServerApplication" type="Application" />
+    <toRun name="JdbcSessionApplication 8080" type="Application" />
+    <toRun name="JdbcSessionApplication 8081" type="Application" />
+    <method v="2" />
+  </configuration>
+</component>
